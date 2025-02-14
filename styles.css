@@ -12,3 +12,30 @@ h1 {
 p {
     color: #666;
 }
+/* ocultar info de imagen */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#myImage {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
