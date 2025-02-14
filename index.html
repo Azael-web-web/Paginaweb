@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <h1>¡Hola, Mundo!</h1>
-    <p>Esta es mi primera página web.</p>
+    <h1>Titulo</h1>
+    <p>Descripcion.</p>
     
     
     <div class="image-container">
@@ -20,13 +20,21 @@
         <p>Esta es la información que se despliega al hacer clic en la imagen.</p>
     </div>
 
-    <img src="imagenes/foco.jpg" alt="Foco" title="Texto adicional">
+    <h1>Página con Imágenes y Audio</h1>
+    <div class="image-container">
+        <img src="imagenes/esfera.jpg" alt="Esfera" id="esfera" title="Texto adicional">
+        <img  id="myImage" src="imagenes/foco.jpg" alt="Foco" id="foco" title="Texto adicional">
+    </div>
+    
+    <div id="info" class="hidden">
+        <p>Esta es la información que se despliega al hacer clic en la imagen.</p>
+    </div>
+
+    <audio id="audio" controls style="display:none;">
+        <source src="audio/djo.mp3" type="audio/mpeg">
+    </audio>
 
     <script src="script.js"></script>
-
-    <audio controls autoplay loop>
-        <source src="audio/djo.mp3" type="audio/mpeg">
-      </audio>
-
+    
 </body>
 </html>
